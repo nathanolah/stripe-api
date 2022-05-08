@@ -5,7 +5,6 @@ import session from "express-session";
 import { ApolloServer } from "apollo-server-express";
 import { ApolloServerPluginLandingPageGraphQLPlayground } from "apollo-server-core";
 import { AppDataSource } from "./data-source";
-// import { createConnection } from "typeorm";
 import { typeDefs } from "./typeDefs";
 import { resolvers } from "./resolvers";
 import cors from "cors";
