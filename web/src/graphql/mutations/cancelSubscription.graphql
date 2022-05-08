@@ -1,0 +1,5 @@
+mutation cancelSubscription {
+  cancelSubscription {
+    ...UserInfo
+  }
+}
