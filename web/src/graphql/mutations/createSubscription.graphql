@@ -1,0 +1,5 @@
+mutation CreateSubscription($source: String!, $ccLast4: String!) {
+  createSubscription(source: $source, ccLast4: $ccLast4) {
+    ...UserInfo
+  }
+}
